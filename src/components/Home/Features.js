@@ -21,10 +21,10 @@ const Features = () => {
                 </span>
               </div>
               <div className="col-md-4 my-auto text-left">
-                <p>Lorem ipsum dolr sit amet.</p>
-                <p>Lorem ipsum dolor sit amet consectetur </p>
-                <p>Lorem ipsum dolor sit.</p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                <p>Create a new project, set deadlines and more..</p>
+                <p>View project Progress</p>
+                <p>Create new milestones</p>
+                <p>Assign Tasks to group members</p>
               </div>
             </div>
           </div>
@@ -39,10 +39,10 @@ const Features = () => {
           <div className="col-md-10">
             <div className="row">
               <div className="col-md-4 my-auto text-right">
-                <p>Lorem ipsum dolor sit amet.</p>
-                <p>Lorem ipsum dolor sit amet consectetur </p>
-                <p>Lorem ipsum dolor sit.</p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>Add Members to project</p>
+                <p>Better UI</p>
+                <p>Set Project Status </p>
+                <p>View Project Progress</p>
               </div>
               <div className="col-md-8">
                 <span>

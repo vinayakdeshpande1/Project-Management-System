@@ -4,15 +4,7 @@ const Navbar = props => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light unique-color">
       <NavLink to="/" className="navbar-brand text-white">
-        <img
-          src="./img/logo.png"
-          alt="Project Watchdog"
-          className="img-fluid ml-2"
-          style={{
-            height: "50px",
-            width: "100px"
-          }}
-        />
+        Project Manager
       </NavLink>
       <button
         className="navbar-toggler text-white"

@@ -7,14 +7,10 @@ const Footer = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-4">
-            <h5 className="title mb-4 mt-3 font-bold">
-              <img
-                src="./img/logo.png"
-                alt="Project Watchdog"
-                className="img-fluid"
-              />
+            <h5 className="title mb-4 mt-3 font-bold fs-7">
+              Project Manager
             </h5>
-            <p>A project managment system for Addis Ababa University</p>
+            <p>A project managment system for Students...</p>
           </div>
           <hr className="clearfix w-100 d-md-none" />
           <div className="col-md-2 mx-auto">
@@ -81,8 +77,8 @@ const Footer = () => {
       </div>
       <div className="footer-copyright">
         <div className="container-fluid">
-          © 2018 Copyright:
-          <NavLink to="/">ProjectWatchdog</NavLink>
+          © 2022 Copyright:
+          <NavLink to="/">Project Manager</NavLink>
         </div>
       </div>
     </footer>

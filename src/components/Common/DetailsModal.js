@@ -112,9 +112,9 @@ const DetailsModal = () => {
           <hr className="bg-white" />
           <div className="modal-footer">
             <div className="container-fluid text-center">
-              © 2018 Copyright:
+              © 2022 Copyright:
               <a href="index.html" className="">
-                ProjectWatchdog.com
+                Project Manager.com
               </a>
             </div>
           </div>

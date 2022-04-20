@@ -8,7 +8,7 @@ class SignupForm extends Component {
     this.state = {
       user: {},
       emailError: false,
-      passwdError: false
+      passwdError: false,
     };
   }
 
@@ -20,8 +20,8 @@ class SignupForm extends Component {
         email: this.state.user.email,
         passwd: this.state.user.passwd,
         bio: this.state.user.bio,
-        dep: this.state.user.dep
-      }
+        dep: this.state.user.dep,
+      },
     });
   }
   onLnameChange(e) {
@@ -32,8 +32,8 @@ class SignupForm extends Component {
         email: this.state.user.email,
         passwd: this.state.user.passwd,
         bio: this.state.user.bio,
-        dep: this.state.user.dep
-      }
+        dep: this.state.user.dep,
+      },
     });
   }
 
@@ -49,8 +49,8 @@ class SignupForm extends Component {
           email: e.target.value,
           passwd: this.state.user.passwd,
           bio: this.state.user.bio,
-          dep: this.state.user.dep
-        }
+          dep: this.state.user.dep,
+        },
       });
     } else if (e.target.value === "") {
       this.setState({ emailError: false });
@@ -70,8 +70,8 @@ class SignupForm extends Component {
           email: this.state.user.email,
           passwd: e.target.value,
           bio: this.state.user.bio,
-          dep: this.state.user.dep
-        }
+          dep: this.state.user.dep,
+        },
       });
     } else if (e.target.value === "") {
       this.setState({ passwdError: false });
@@ -88,8 +88,8 @@ class SignupForm extends Component {
         email: this.state.user.email,
         passwd: this.state.user.passwd,
         bio: e.target.value,
-        dep: this.state.user.dep
-      }
+        dep: this.state.user.dep,
+      },
     });
   }
 
@@ -101,8 +101,8 @@ class SignupForm extends Component {
         email: this.state.user.email,
         passwd: this.state.user.passwd,
         bio: this.state.user.bio,
-        dep: e.target.value
-      }
+        dep: e.target.value,
+      },
     });
   }
 
@@ -120,19 +120,19 @@ class SignupForm extends Component {
         Email: user.email,
         Password: user.passwd,
         Department: user.dep,
-        OtherDescription: user.bio
-      }
+        OtherDescription: user.bio,
+      },
     })
-      .then(response => {
+      .then((response) => {
         console.log(response.data);
         window.location.href = "http://localhost:3000/signin";
       })
-      .catch(error => {
+      .catch((error) => {
         console.log(error);
         this.setState({
           error: true,
           erro_mesg:
-            "Some error occured whilet trying to fetch the data! Please try again"
+            "Some error occured whilet trying to fetch the data! Please try again",
         });
       });
   }
@@ -202,8 +202,9 @@ class SignupForm extends Component {
                       type="text"
                       id="Form-email"
                       className="form-control"
-                      autoComplete="true"
+                      autoComplete={false}
                       onChange={this.onEmailChange.bind(this)}
+                      // placeholder="Your Email"
                       required
                     />
                     <label htmlFor="Form-email">Your email</label>
@@ -216,6 +217,8 @@ class SignupForm extends Component {
                       id="Form-pass1"
                       className="form-control"
                       onChange={this.onPasswordChange.bind(this)}
+                      autoComplete={false}
+                      // placeholder="Your Password"
                       required
                     />
                     <label htmlFor="Form-pass1">Your password</label>
@@ -235,10 +238,13 @@ class SignupForm extends Component {
                       <span>(optional)</span>{" "}
                     </label>
                   </div>
-                  <label htmlFor="">Your Department</label>
+                  <label htmlFor="">
+                    <i className="fa fa-user prefix grey-text fs-4 mr-4" />
+                    {/* <i className="fas fa-dot-circle prefix grey-text fs-4 mr-4"></i> */}
+                    Your Department</label>
                   <div className="form-group">
                     <select
-                      className="browser-default form-control"
+                      className="browser-default form-control mr-4"
                       searchable="Search your department"
                       onChange={this.onDepChange.bind(this)}
                       defaultValue={0}
@@ -248,23 +254,17 @@ class SignupForm extends Component {
                         value="0"
                         disabled
                         style={{
-                          color: "grey"
+                          color: "grey",
                         }}
                       >
                         Choose Your Department
                       </option>
-                      <option value="Computer Science">Computer Science</option>
-                      <option value="Mathimatics">Mathimatics</option>
-                      <option value="Biology">Biology</option>
-                      <option value="Chemeistry">Chemeistry</option>
-                      <option value="Civil Eng.">Civil Eng.</option>
-                      <option value="Sport Science">Sport Science</option>
-                      <option value="Statistics">Statistics</option>
-                      <option value="Physics">Physics</option>
-                      <option value="Information Science">
-                        Information Science
-                      </option>
-                      <option value="Software Eng">Software Eng.</option>
+                      <option value="CSE">Computer Science</option>
+                      <option value="Civil">Civil Eng.</option>
+                      <option value="Mechanical">Mechanical Eng.</option>
+                      <option value="ENTC">ENTC</option>
+                      <option value="Electrical">Electrical Eng.</option>
+                      <option value="Chemical">Chemical Eng.</option>
                     </select>
                   </div>
                   <div className="text-center mb-3">

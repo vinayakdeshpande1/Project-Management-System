@@ -1,5 +1,5 @@
 {
-  "name": "projectwatchdog",
+  "name": "project-manager",
   "version": "1.0.0",
   "description": "A project management system",
   "main": "app.js",

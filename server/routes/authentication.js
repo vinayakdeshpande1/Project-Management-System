@@ -53,7 +53,7 @@ passport.deserializeUser((id, done) => {
 // 						Email:
 // 							profile.name.givenName +
 // 							profile.name.familyName +
-// 							'@projectwatchdog.com',
+// 							'@Project Manager.com',
 // 						googleID: profile.id,
 // 						Password: profile.id,
 // 						Department: 'Computer Science',

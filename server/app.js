@@ -30,7 +30,7 @@ app.use(methodOverride('_method'));
 
 // Routing to '/'
 app.get('/', (req, res) => {
-	res.send('HELLO PROJECTWATCHDOG');
+	res.send('HELLO Project Manager');
 });
 
 // Intializing mongodb and connecting

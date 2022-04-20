@@ -170,7 +170,7 @@ class ProjectNav extends Component {
             {icon}
             <div className="breadcrumb-dn mr-auto">
               <span to="#!" className="ml-2">
-                <strong>ProjectWatchdog</strong>
+                <strong>Project Manager</strong>
               </span>
             </div>
             <ul className="nav navbar-nav nav-flex-icons ml-auto">

@@ -80,6 +80,8 @@ class CreateProject extends PureComponent {
     if (!this.state.deadlineError) {
       this.props.onNewProject(this.state.project);
       e.preventDefault();
+      alert("Project Created Successfully..!")
+      window.location = window.location.href
     } else {
       console.log("Form not submitted");
       this.setState({
