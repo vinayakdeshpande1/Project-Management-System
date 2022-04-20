@@ -19,9 +19,11 @@ const Slider = props => {
       <div className="carousel-inner">
         <div className="carousel-item active">
           <img
+          style={{"height": "100%"}}
             className="d-block w-100 img-fluid"
-            src="./img/landing_projects.png"
+            src="./img/first_slide.png"
             alt="Manage your projects"
+            // height="400"
           />
           <p className="text-align-right" style={{ margin: "-25px" }}>
             Manage your projects
@@ -37,7 +39,8 @@ const Slider = props => {
         <div className="carousel-item">
           <img
             className="d-block w-100 img-fluid"
-            src="holder.js/520x150?random=yes&auto=yes&text=Third slide"
+            // src="holder.js/520x150?random=yes&auto=yes&text=Project Manager"
+            src="./img/third_slide.svg"
             alt="Third slide"
           />
         </div>
@@ -48,7 +51,7 @@ const Slider = props => {
         role="button"
         data-slide="prev"
       >
-        <span className="carousel-control-prev-icon" aria-hidden="true" />
+        <span className="carousel-control-prev-icon text-dark bg-dark" aria-hidden="true" />
         <span className="sr-only">Previous</span>
       </a>
       <a
@@ -57,7 +60,7 @@ const Slider = props => {
         role="button"
         data-slide="next"
       >
-        <span className="carousel-control-next-icon" aria-hidden="true" />
+        <span className="carousel-control-next-icon text-dark bg-dark" aria-hidden="true" />
         <span className="sr-only">Next</span>
       </a>
     </div>

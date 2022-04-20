@@ -14,7 +14,7 @@ const Features = () => {
               <div className="col-md-8">
                 <span>
                   <img
-                    src="holder.js/800x300?random=yes&auto=yes"
+                    src="holder.js/800x300?bg=5a5a50&auto=yes&text=Project%20Features"
                     className="img-fluid ml-auto"
                     alt="Feature 1"
                   />
@@ -47,7 +47,7 @@ const Features = () => {
               <div className="col-md-8">
                 <span>
                   <img
-                    src="holder.js/800x300?random=yes&auto=yes"
+                    src="holder.js/800x300?bg=5a5a50&auto=yes&text=Project%20Features&align=left"
                     className="img-fluid"
                     alt="Feature 2"
                   />

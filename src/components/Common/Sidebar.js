@@ -10,10 +10,11 @@ const Sidebar = props => {
             <div className="" />
             <a
               href="/"
-              className="flex-center text-white"
+              className="flex-center text-white font-weight-bold waves-effect fs-4 mt-4"
               alt="Project Watchdog"
             >
-              <img src="./img/logo.png" alt="Logo" className="img-fluid" />
+              {/* <img src="./img/logo.png" alt="Logo" className="img-fluid" /> */}
+              Project Manager
             </a>
           </div>
         </li>
@@ -63,7 +64,7 @@ const Sidebar = props => {
               Progress
             </a>
           </li>
-          <li className="nav-item waves-effect waves-light">
+          {/* <li className="nav-item waves-effect waves-light">
             <a
               href={"/chat?id=" + props.projectid}
               className="nav-link no-pl text-white"
@@ -74,7 +75,7 @@ const Sidebar = props => {
               />
               Chat
             </a>
-          </li>
+          </li> */}
 
           <li className="nav-item waves-effect waves-light">
             <a
@@ -100,7 +101,7 @@ const Sidebar = props => {
               Schedule
             </a>
           </li>
-          <li className="nav-item waves-effect waves-light">
+          {/* <li className="nav-item waves-effect waves-light">
             <a
               href={"/repository?id=" + props.projectid}
               className="nav-link no-pl text-white"
@@ -108,7 +109,7 @@ const Sidebar = props => {
               <i className="fa fa-archive fa-lg mr-4 ml-3" aria-hidden="true" />
               Archive
             </a>
-          </li>
+          </li> */}
           <li className="nav-item waves-effect waves-light">
             <a
               href={"/history?id=" + props.projectid}
