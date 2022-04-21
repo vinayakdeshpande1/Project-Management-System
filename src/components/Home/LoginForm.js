@@ -236,10 +236,10 @@ class LoginForm extends Component {
 												Sign in
 											</button>
 										</div>
-										<p className='font-small dark-grey-text text-right d-flex justify-content-center mb-3 pt-2'>
+										{/* <p className='font-small dark-grey-text text-right d-flex justify-content-center mb-3 pt-2'>
 											or Sign in with :
-										</p>
-										<div className='row my-3 d-flex justify-content-center'>
+										</p> */}
+										{/* <div className='row my-3 d-flex justify-content-center'>
 											<button
 												type='button'
 												className='btn btn-white btn-rounded z-depth-1a'
@@ -248,7 +248,7 @@ class LoginForm extends Component {
 												<i className='fa fa-google-plus blue-text' />
 												<span className='text-primary text-center'>Google</span>
 											</button>
-										</div>
+										</div> */}
 									</div>
 								</form>
 								<div className='modal-footer mx-5 pt-3 mb-1'>
