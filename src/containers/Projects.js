@@ -159,10 +159,10 @@ class Projects extends PureComponent {
     } else if (this.state.projects.length === 0) {
       allprojects = (
         <div className="col-lg-12 text-center my-5 text-primary h6">
-          <img className="img-fluid" src="./img/beach1.png" alt="Desert" />
-          <div className="my-3">
-            You currently have no projects created.Creat a new project by
-            clicking on New project in the navigation pane
+          <img className="img-fluid" src="holder.js/800x300?bg=1565C0&text=Create your first project" alt="Desert" />
+          <div className="my-3" style={{lineHeight: 1.6}}>
+            You currently have no projects created. <br />
+            Create a new project by clicking on New project in the navigation pane.
           </div>
         </div>
       );
