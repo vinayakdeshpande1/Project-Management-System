@@ -37,6 +37,8 @@ class Progress extends Component {
         url: "/api/projects/" + this.id
       })
       .then(response => {
+        console.log("==================================");
+        console.log(response.data);
         this.tasks = response.data.Task;
         this.milestone = response.data.MileStone;
         this.progress = response.data.Progress;
