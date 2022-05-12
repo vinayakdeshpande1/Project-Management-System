@@ -1,9 +1,6 @@
-![project watchdog logo](./public/img/readme_banner.jpg)
+# Project Management Application
 
-Project Watchdog is a project managment system that helps students and adviosrs to collaborate on a project by tracking each step of their project phase. It has useful features like task assignment, progress report, project archive and project history.
-
-## See it in action 
-[Project Watchdog YouTube](https://www.youtube.com/watch?v=kAUCX6LbpnY)
+PMA is a project managment system that helps students and adviosrs to collaborate on a project by tracking each step of their project phase. It has useful features like task assignment, progress report and project history.
 
 ## Getting Started
 
@@ -14,7 +11,7 @@ To get started with the project you need to install [node](https://nodejs.org/en
 To get started clone the repo
 
 ```bash
-git clone https://gitlab.com/rabira-hierpa/project_watchdog.git
+Clone the repo
 cd project-watchdog/
 ```
 
@@ -36,7 +33,7 @@ npm start
 Or you can do
 
 ```bash
-git clone https://gitlab.com/rabira-hierpa/project_watchdog.git
+Clone the repository
 cd watchdog-openday/
 npm install # or yarn start
 npm start
@@ -47,8 +44,8 @@ npm start
 To deploye the app to your local server you can do
 
 ```bash
-git clone https://gitlab.com/rabira-hierpa/project_watchdog.git
-cd project-watchdog/
+Clone the repository
+cd PMS
 npm install #or yarn start
 npm build
 ```
@@ -65,7 +62,3 @@ npm build
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-## Acknowledgments
-
-* [TraversyMedia](http://twitter.com/traversymedia)
-* [Acadaminde](https://www.youtube.com/channel/UCSJbGtTlrDami-tDGPUV9-w)
