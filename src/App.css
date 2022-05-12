@@ -1,12 +1,13 @@
 .item.muuri-item-dragging {
   z-index: 3;
 }
+.minheight {
+  min-height: 100vh;
+}
+
 .item.muuri-item-releasing {
   z-index: 2;
 }
 .item.muuri-item-hidden {
   z-index: 0;
-}
-.minheight {
-  min-height: 100vh;
 }
