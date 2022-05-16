@@ -12,7 +12,7 @@ To get started clone the repo
 
 ```bash
 Clone the repo
-cd project-watchdog/
+cd PMS/
 ```
 
 ### Install dependencies
@@ -27,15 +27,6 @@ yarn install
 To get the development server started
 
 ```bash
-npm start
-```
-
-Or you can do
-
-```bash
-Clone the repository
-cd watchdog-openday/
-npm install # or yarn start
 npm start
 ```
 
